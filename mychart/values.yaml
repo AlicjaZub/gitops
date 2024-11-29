@@ -1,0 +1,13 @@
+appName: Argo
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  tag: ""
+
+port: 80
+configmap:
+  name: myhelmapp-configmap-v1
+  data:
+    CUSTOM_HEADER: "This app was deployed with helm!"

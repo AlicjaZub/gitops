@@ -4,7 +4,8 @@ replicaCount: 1
 image:
   repository: nginx
   pullPolicy: IfNotPresent
-  tag: ""
+  tag: latest
+  name: my-deployment
 
 port: 80
 configmap:

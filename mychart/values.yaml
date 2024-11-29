@@ -1,4 +1,4 @@
-appName: Argo
+appName: helm-app
 replicaCount: 1
 
 image:

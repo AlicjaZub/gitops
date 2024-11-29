@@ -1,5 +1,6 @@
 appName: helm-app
 replicaCount: 1
+replicas: 5
 
 image:
   repository: nginx
